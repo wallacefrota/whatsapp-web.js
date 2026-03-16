@@ -42,7 +42,7 @@ class Channel extends Base {
          * @type {string}
          */
         this.description = data.channelMetadata
-            ? data.channelMetadata.description 
+            ? data.channelMetadata.description
             : '';
 
         /**
