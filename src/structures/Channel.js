@@ -41,7 +41,9 @@ class Channel extends Base {
          * The channel description
          * @type {string}
          */
-        this.description = data.channelMetadata ? data.channelMetadata.description : '';
+        this.description = data.channelMetadata
+            ? data.channelMetadata.description 
+            : '';
 
         /**
          * Indicates if it is a Channel
